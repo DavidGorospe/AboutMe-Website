@@ -1,0 +1,277 @@
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 128px;   
+  padding-top: 128px; 
+}
+
+.text{
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+/*
+Header Styling
+*/
+.header {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  color: #00b8d4;
+  font-family: sans-serif;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size:2.5vw;
+}
+
+.nav-links:hover {
+  color:white;
+}
+
+.home-link{
+  color: #b2f5ea;
+  font-weight: bold;
+}
+
+.about-link {
+  color: #b2f5ea;
+  font-weight: bold;
+}
+
+.contact-link {
+  color: #b2f5ea;
+  font-weight: bold;
+}
+
+.project-link {
+  color: #b2f5ea;
+  font-weight: bold;
+}
+
+/*
+Footer Styling
+*/
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  bottom: 0;
+  position: absolute;
+}
+
+.footer-text {
+  padding-top:15px;
+}
+
+/*
+Index Main Styling
+*/
+
+/*
+Image Styling
+*/
+.img-me{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
+.img-div{
+  text-align: center;
+}
+
+/*
+Name Styling
+*/
+
+.name-p{
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.intro-p{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/*
+About Page Styling
+*/
+
+/*
+About Me Text Styling
+*/
+.calendar-table, td, tr{
+  border: thin solid;
+  font-size: 2vw;
+}
+
+.about-h1{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.desc-p{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.course-p{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.courses-div{
+  text-align: center;
+}
+
+.courses-ul{
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.course-li{
+  padding-right: 30px;
+  text-align: center;
+}
+
+.schedule-p{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.calendar-table{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.csc343-time{
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.CSC207-time{
+  background-color: red;
+  color:white;
+  text-align:center;
+}
+
+.CSC369-time{
+  background-color: green;
+  color:white;
+  text-align:center;
+}
+
+/*
+Project Page Styling
+*/
+
+.projecttext-h1{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.projecttext2-div{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card{
+  max-width: 50%;
+  max-height: 100%;
+  margin:auto;
+  text-align: center;
+  background-color:rgb(204, 202, 202);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.card-wrapper{
+  font-family: sans-serif;
+}
+
+.project3{
+  max-width: 90%;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+.project2{
+  max-width: 90%;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+.project1{
+  max-width: 90%;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+.web-p{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.form-div{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.email{
+  padding: 0.5rem;
+  font-family: 'Times New Roman';
+}
+
+textarea{
+  resize: none;
+}
+
+.description{
+  width: 250px;
+  padding: 0.5rem
+}
+
+.attachment{
+  width: 170px;
+}
+
+.checkbox{
+  scale: 2;
+}
+
+/*
+Contacts Styling
+*/
+
+.name-header{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.utor-email-div{
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSC309 A1 - Projects</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="div-header">
+        <header class="header">
+          <div class="header-content">
+            <nav class="nav">
+              <a href="index.html" class="nav-links">
+                Home
+              </a>
+              <a href="about.html" class="nav-links">
+                About
+              </a>
+              <a href="projects.html" class="project-link nav-links">
+                Projects
+              </a>
+              <a href="contact.html" class="nav-links">
+                Contact
+              </a>
+            </nav>
+          </div>
+        </header>
+      </div>
+      <div class="content-wrap">
+        <main class="main">
+          <div class="main-content">
+            <div class="projecttext-div">
+              <h1 class="projecttext-h1 text">
+                Projects
+              </h1>
+            </div>
+            <div class="projecttext2-div">
+              <p class="projecttext2-p text">
+                Here are some of my current and past projects.
+              </p>
+            </div>
+            <div class="card-wrapper">
+              <div class="card">
+                <h1 class="text">
+                  Java Farming Simulator Project
+                </h1>
+                <img src="project2.jpg" class="project2" alt="Picture of project">
+                <p class="text">
+                  This project was a Java program of a Farming Simulator video game, where a user is able to grow and manage their crops and animals. 
+                  I worked with 5 other members to develop this program. I was repsonsible for displaying the user's current farm progress/status.
+                </p>
+              </div>
+              <div class="card">
+                <h1 class="text">
+                  C Friend Chat Project
+                </h1>
+                <img src="project1.jpg" class="project1" alt="Picture of project">
+                <p class="text">
+                  This project was a C program of a Chat program, where a user is able to login to an account, add friends who have accounts, 
+                  and chat with them in real-time. This program used socket libraries to establish a server and manage connections of users.
+                </p>
+              </div>
+              <div class="card">
+                <h1 class="text">
+                  HR System Project
+                </h1>
+                <img src="project3.jpg" class="project3" alt="Picture of project">
+                <p class="text">
+                  This project is a personal project that I started to practice my Clean Architecture skills and object-oriented programming.
+                  It is supposed to be a Human-Resource system that companies can use to manage their employees' information within the company
+                  like their pay, hours worked, and other information.
+                </p>
+              </div>
+            </div>
+            <p class="web-p text">
+              Need a full stack web developer? Tell me about your project.
+            </p>
+            <div class="form-div">
+              <form action="https://postman-echo.com/post" method="post">
+                <label for="email" class="text">
+                  Email:
+                </label>
+                <br>
+                <input type="text" id="email" class="email" name="email" required>
+                <br>
+                <br>
+                <label for="project-type" class="text">
+                  Type of Project:
+                </label>
+                <br>
+                <select id="project-type" class="project-type" name="project-type" size=1 required>
+                  <option value="">Personal Website</option>
+                  <option value="">eCommerce</option>
+                  <option value="">Game</option>
+                </select>
+                <br>
+                <br>
+                <label for="description" class="text">
+                  Description of Project:
+                </label>
+                <br>
+                <textarea id="description" class="description" name="project-description" placeholder="Enter your project concept here" required></textarea>
+                <br>
+                <br>
+                <label for="attachment" class="text">
+                  Choose a file:
+                </label>
+                <br>
+                <input type="file" id="attachment" class="attachment" name="attachment" required>
+                <br>
+                <br>
+                <label for="checkbox" class="text">
+                  You agree to receive emails from me.
+                </label>
+                <input type="checkbox" id="checkbox" class="checkbox" name="consent" required>
+                <br>
+                <br>
+                <input type="submit" value="Send">
+              </form>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="footer-content">
+        <footer class="footer">
+          <div class="footer-text text">
+            Copyright 2024 by gorosped.
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
